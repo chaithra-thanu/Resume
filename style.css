@@ -5,7 +5,7 @@ html{
 	box-sizing:inherit;
 }
 
-	.body{
+body{
 font-family:'source sans pro', sans-serif;
 line-height:1.5;
 background:#F2F2F2;
@@ -13,7 +13,7 @@ color:#323232;
 }
 /*--------header------*/
 
-	
+
 
 
 img{
@@ -25,16 +25,16 @@ fill: currentcolor;
 display:inline-block;
 font-size:inherit;
 height:1.5em;
-overflow:visible;	
+overflow:visible;
 }
 
 a{
 	color: #323232;
 	text-decoration:none;
-	
+
 }
 a:hover{
-	text-decoration: underline; 	
+	text-decoration: underline;
 }
 .container{
 	max-width:960px;
@@ -43,12 +43,12 @@ a:hover{
 	background:white;
 	box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
-section{	
+section{
 	display: grid;
 	grid-template-columns: 1fr 4fr;
 	grid-gap: 30px;
 	padding: 24px 0;
-	border-bottom:1px solid lightgray; 
+	border-bottom:1px solid lightgray;
 	margin:0;
 }
 section:last-child{
@@ -56,12 +56,15 @@ section:last-child{
 }
 .section-title{
 	font-weight: bold;
-	font-size:18px;
+	font-style: italic;
+    font-size: 18px;
+    color: #cf8a05;
+
 }
 /* main info*/
  img.avatar{
 	 width:130px;
-	 
+
  }
 .my-name{
 	font-size:48px;
@@ -72,7 +75,7 @@ section:last-child{
 .link{
 	display:flex;
 	margin:10px 0 20px 0;
-	
+
 }
 .link-item{
 	display:flex;
@@ -102,9 +105,9 @@ line-height:1.6;
 	font-size:18px;
 }
 .college-name{
-	font-weight: bold:
+	font-weight: bold;
 	line-height: 1.2;
-	
+
 }
 .skills container{
 	display:grid;
@@ -135,4 +138,3 @@ line-height:1.6;
 		margin-bottom:16px;
 	}
 }
-    
