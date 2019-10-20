@@ -62,9 +62,9 @@ section:last-child{
 
 }
 /* main info*/
- img.avatar{
+ img.profile-image{
 	 width:130px;
-
+	border-radius: 50%;
  }
 .my-name{
 	font-size:48px;
@@ -137,4 +137,8 @@ line-height:1.6;
 		margin-right:32px;
 		margin-bottom:16px;
 	}
+}
+
+.profile-image {
+	border-radius: 50%;
 }
