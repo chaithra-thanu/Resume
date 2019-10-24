@@ -96,7 +96,7 @@ section:last-child{
 /*education */
 .education{
 	/* padding-bottom:24px; */
-	margin-bottom:24px;
+	margin-bottom:10px;
 	border-bottom: 1px solid lightgray;
 	display:grid;
 line-height:1.6;
@@ -133,7 +133,6 @@ line-height:1.6;
 .skills-container{
 	display:grid;
 	grid-gap:20px;
-	margin-bottom:24px;
 }
 .interests-container{
 	display:flex;
