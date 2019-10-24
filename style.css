@@ -171,6 +171,15 @@ line-height:1.6;
 	padding-top: 10px;
 }
 
+.footer {
+	width: 100%;
+	padding: 10px;
+	color: green;
+	font-size: 16px;
+	font-style: italic;
+	text-align: center;
+}
+
 @media only screen and (max-width :768px){
 	section{
 		grid-template-colums: 1fr;
@@ -181,6 +190,7 @@ line-height:1.6;
 	.interests-container {
 		flex-wrap: wrap;
 		justify-content:flex-start;
+		padding: 12px 0;
 	}
 	.interests-container img{
 		margin-right:32px;
