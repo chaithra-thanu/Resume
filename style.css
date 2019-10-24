@@ -137,6 +137,7 @@ line-height:1.6;
 .interests-container{
 	display:flex;
 	justify-content:space-between;
+	padding: 12px 0;
 }
 .interests-container img{
 	height:45px;
@@ -190,7 +191,6 @@ line-height:1.6;
 	.interests-container {
 		flex-wrap: wrap;
 		justify-content:flex-start;
-		padding: 12px 0;
 	}
 	.interests-container img{
 		margin-right:32px;
@@ -221,5 +221,9 @@ line-height:1.6;
 
 	.link, .link-item {
 		justify-content: center;
+	}
+
+	.container {
+		margin: 0;
 	}
 }
